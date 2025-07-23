@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style> 
+        body{
+            background-color: #040404;
+        }
+        .heading{
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            background-color: #470202ac;
+            border-radius: 4px;
+
+        }
+        .h1txt{
+            
+            color: rgb(240, 252, 2);
+            text-align: center;
+            font-weight: lighter;
+            padding: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .num{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 100px;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .btncontainer{
+            display: flex;
+            justify-content: center;
+            /* border: solid rgb(240, 234, 234); */
+            padding: 10px ;
+        }
+        .button {
+            background-color: rgb(34, 97, 255);
+            border-style: none;
+            border-radius: 5px;
+            padding: 0.5rem;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            margin: 12px;
+            cursor: pointer;
+        }
+        button:hover{
+            /* color: #6d4e4e; */
+            background: #020ef5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1 id="Headingtxt" class="h1txt">Counter</h1>
+    </div>
+    <div class="num">
+        <h1 id="Number">0</h1>
+    </div>
+    <div class="btncontainer">
+        <button id="decrease" class="button">Decrement</button>
+        <button id="reset" class="button">Reset</button>
+        <button id="increase" class="button">Increment</button>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
