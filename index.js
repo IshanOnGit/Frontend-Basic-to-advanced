@@ -17,7 +17,7 @@ decreasebtn.onclick = function() {
     else
         {
             count=0;
-            window.alert("Count can not be less than zero");
+            window.alert("Count cannot be less than zero");
         }
 
         
